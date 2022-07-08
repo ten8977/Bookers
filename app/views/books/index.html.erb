@@ -16,8 +16,8 @@
      <tr>
       <td><%= book.title %></td>
       <td><%= book.body %></td>
-      <td><%= link_to "Show", "/books/show" %></td>
-      <td><%= link_to "Edit", "/books/edit" %></td>
+      <td><%= link_to "Show", "/books/#{book.id}" %></td>
+      <td><%= link_to "Edit", "/books/#{book.id}" %></td>
       <td><%= link_to "Destroy", "/books/destroy" %></td>
     </tr>
 
